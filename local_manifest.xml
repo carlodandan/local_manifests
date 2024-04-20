@@ -1,26 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-   <remote name="sounddrill31"
-            fetch="https://github.com/sounddrill31"
+   <remote name="carlodandan-gh"
+            fetch="https://github.com/carlodandan"
             clone-depth="1" />
-    <!--Credit to zhengz/rik0612c for Sources and keeping our device alive -->                            
+   <remote name="carlodandan-gl"
+            fetch="https://gitlab.com/firmware-dump"
+            clone-depth="1" />
+   <remote name="lineageos"
+            fetch="https://github.com/LineageOS"
+            clone-depth="1" />                    
  <!--Tree -->
- <project path="device/oneplus/bacon" name="android_device_oneplus_bacon" remote="sounddrill31" revision="lineage-21" />
+ <project path="device/realme/RMX3521" name="android_device_realme_RMX3521" remote="carlodandan-gh" revision="lineage-20-2" />
 
  <!--Kernel -->
- <project path="kernel/oneplus/bacon" name="android_kernel_oppo_msm8974" remote="sounddrill31" revision="lineage-20" />
+ <project path="kernel/realme/RMX3521" name="android_kernel_realme_RMX3521" remote="carlodandan-gh" revision="lineage-20" />
 
  <!--Vendor -->
- <project path="vendor/oneplus/bacon" name="proprietary_vendor_oneplus_bacon" remote="sounddrill31" revision="lineage-20" />
+ <project path="vendor/realme/RMX3521" name="android_vendor_realme_RMX3521" remote="carlodandan-gh" revision="lineage-20" />
 
- <!--Other HALs-->
+ <!--Prebuilts -->
+ <project path="device/realme/RMX3521-prebuilt" name="android_device_realme_RMX3521-prebuilts" remote="carlodandan-gh" revision="lineage-20" />
+ <project path="firmware/realme" name="android_firmware_realme_RMX3521" remote="carlodandan-gl" revision="lineage-20" />
+
+ <!--Hardware-->
+ <project path="hardware/oplus" name="android_hardware_oplus" remote="lineageos" revision="lineage-20" />
    
  <!-- Dependencies -->
 
  <!-- Replacements -->
 
- <!-- Common -->
- <project path="device/oppo/msm8974-common" name="android_device_oppo_msm8974-common" remote="sounddrill31" revision="lineage-21" />
- <project path="vendor/oppo/msm8974-common" name="proprietary_vendor_oppo_msm8974-common" remote="sounddrill31" revision="lineage-20" />
+ <!-- Clang -->
+ <project path="prebuilts/clang/host/linux-x86/clang-r416183b" name="aosp-clang-prebuilt" remote="carlodandan" revision="clang-r416183b" />
 
 </manifest>
