@@ -13,7 +13,7 @@
  <project path="device/realme/RMX3521" name="android_device_realme_RMX3521" remote="carlodandan-gh" revision="lineage-20-2" />
 
  <!--Kernel -->
- <project path="kernel/realme/RMX3521" name="android_kernel_realme_RMX3521" remote="carlodandan-gh" revision="lineage-20" />
+ <project path="kernel/realme/sm6225" name="android_kernel_realme_sm6225" remote="carlodandan-gh" revision="lineage-20" />
 
  <!--Vendor -->
  <project path="vendor/realme/RMX3521" name="android_vendor_realme_RMX3521" remote="carlodandan-gh" revision="lineage-20" />
