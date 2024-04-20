@@ -30,6 +30,6 @@
  <!-- Replacements -->
 
  <!-- Clang -->
- <project path="prebuilts/clang/host/linux-x86/clang-r416183b" name="aosp-clang-prebuilt" remote="carlodandan" revision="clang-r416183b" />
+ <project path="prebuilts/clang/host/linux-x86/clang-r416183b" name="aosp-clang-prebuilt" remote="carlodandan-gh" revision="clang-r416183b" />
 
 </manifest>
